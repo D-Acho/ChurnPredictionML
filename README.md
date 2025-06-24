@@ -19,6 +19,8 @@ Categorical variables were transformed into numerical and mostly binary format, 
 
 Once the data was merged and cleaned into a single DataFrame, the correlation between predictor variables and the target variable Churn was analyzed. A strong negative correlation was found with the 'TenureMonths' variable, which led to its exclusion from the model features. Additionally, the columns 'customerID', 'BeginDate', 'EndDate', and 'TenureSegment' were removed since they offered no predictive value.
 
+Correlation matrix:
+![Correlation matrix](https://raw.githubusercontent.com/D-Acho/Final_project/main/pictures/correlation_matrix.png)
 
 ## Modeling
 
@@ -26,8 +28,7 @@ The initial plan was to test models such as Logistic Regression, Random Forest, 
 
 Model Comparison:
 
-
-
+![Correlation matrix](https://raw.githubusercontent.com/D-Acho/Final_project/main/pictures/model_comparison.png)
 
 ## Selected Model and Hyperparameter Tuning
 
