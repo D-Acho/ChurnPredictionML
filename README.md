@@ -58,3 +58,11 @@ The GradientBoosting model is the most suitable for this use case due to its bal
 It is recommended to integrate the model into customer retention workflows, especially for users with low tenure.
 
 Periodic monitoring of the model's performance is suggested, along with exploring new external variables that could enhance predictive power.
+
+### ⚙️ Technologies Used
+
+- 🐼 `pandas`
+- 📊 `seaborn`, `matplotlib`
+- 🧮 `numpy`
+- 🎯 `scikit-learn`
+- 🚀 `xgboost`, `lightgbm`, `catboost`
